@@ -1,0 +1,1 @@
+["Don't do it!", "Come on! Just give me your hand and I'll pull you back over.", "No, you won't!", 'Well, you would have done it already.', "I can't. I'm involved now. You let go, and I'm gonna have to jump in there after you.", "I'm a good swimmer."]

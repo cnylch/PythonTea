@@ -20,9 +20,8 @@ except IOError as err:
 
 try:
     #使用print 写入到文件当中
-    with open('file_jack.txt','w') as file_jack:
+    with open('file_jack.txt','w') as file_jack ,open('file_rose.txt','w') as file_rose:
         print(jack_list, file=file_jack)
-    with open('file_rose.txt','w') as file_rose:
         print(rose_list, file=file_rose)
 except IOError as err:
     print('File IO error!' + str(err))#文件读取错误，给以提示。
